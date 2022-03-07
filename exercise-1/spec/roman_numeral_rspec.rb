@@ -1,6 +1,6 @@
 require "roman_numeral"
 
-describe "#new_roman_numeral" do
+describe "#transform_to_roman_numeral" do
 
   it "should work for numbers between 1 and 4" do
     expect(new_roman_numeral(1)).to eq "I"
